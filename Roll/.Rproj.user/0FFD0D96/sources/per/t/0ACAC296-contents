@@ -1,0 +1,8 @@
+#! /usr/bin/Rscript
+record<-c()
+while (TRUE){
+  var<-readline()
+  record<-c(record,var)
+}
+
+print("Done!")
